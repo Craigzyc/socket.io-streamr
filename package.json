@@ -1,0 +1,36 @@
+{
+  "name": "socket.io-streamr",
+  "version": "1.0.0",
+  "description": "New Stream Module that works with redis adapter",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Craigzyc/socket.io-streamr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Craigzyc/socket.io-streamr/issues"
+  },
+  "homepage": "https://github.com/Craigzyc/socket.io-streamr#readme",
+  "devDependencies": {
+    "@socket.io/mongo-adapter": "^0.3.2",
+    "ioredis": "^5.4.1",
+    "jest": "^29.7.0",
+    "mongodb": "^6.11.0",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "socket.io-redis": "^6.1.1",
+    "socket.io-redis-streams-adapter": "^0.1.1"
+  },
+  "dependencies": {
+    "shortid": "^2.2.16"
+  }
+}
